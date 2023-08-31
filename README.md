@@ -1,6 +1,6 @@
 # Inferring Private Valuations from Behavioral Data in Bilateral Sequential Bargaining 
 
-This repository is the specific implementation for the pubilshed paper on IJCAI-2023.
+This repository is the specific implementation for the published paper on IJCAI-2023.
 
 ## Requirements
 
@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ### Clustering 
 
-To perform K-Loss clustering on synthetic datasets, run the two command:
+To perform K-Loss clustering on synthetic datasets, run the two commands:
 
 ```train
 python KLoss_clustering_on_syndata.py --fold_lambda 'SynData_Uniform' --rand_idx 1 --iters 10 --save_root <save root path> 
