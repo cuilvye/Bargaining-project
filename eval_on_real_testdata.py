@@ -119,7 +119,7 @@ def Singlepredict_SellerVs_on_TestData(file_prior, g_sellers, path_model, classe
 
 args_parser = argparse.ArgumentParser()
 
-args_parser.add_argument('--file_path',  default ='./Datasets/RealDataset/Corr/', help = 'the root path of dataset', type = str)
+args_parser.add_argument('--file_path',  default ='./Datasets/RealDataset/', help = 'the root path of dataset', type = str)
 args_parser.add_argument('--file_name', default ='Corr_vs_inference_eBay_Selection_Final_Prior_FS_sel_differ_0_30_VsNum_45', help = 'the dataset name', type = str)
 args_parser.add_argument('--classes', default = 5, help = 'the number of action types', type = int)
 args_parser.add_argument('--k', default = 3, help = 'the number of clusters', type = int)

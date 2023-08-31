@@ -169,9 +169,9 @@ train_name = 'TrainPrior'+str(split_idx)+'_' + file_name
 valid_name = 'ValidPrior'+str(split_idx)+'_' + file_name
 test_name = 'TestPrior'+str(split_idx)+'_' + file_name
 
-file_train = pd.read_csv(file_path + fold_lambda +'/Corr/' + train_name +'.csv', header = 0)
-file_valid = pd.read_csv(file_path + fold_lambda +'/Corr/' + valid_name +'.csv', header = 0)        
-file_test = pd.read_csv(file_path + fold_lambda +'/Corr/' + test_name +'.csv', header = 0)
+file_train = pd.read_csv(file_path + fold_lambda +'/' + train_name +'.csv', header = 0)
+file_valid = pd.read_csv(file_path + fold_lambda +'/' + valid_name +'.csv', header = 0)
+file_test = pd.read_csv(file_path + fold_lambda +'/' + test_name +'.csv', header = 0)
 
 file_train_prior, file_valid_prior, file_test_prior = None, None, None
 if 'Vs_min' not in list(file_train):
